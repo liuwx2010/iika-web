@@ -1,0 +1,21 @@
+document.writeln("<div id=\'footermenu\'>");
+document.writeln("<ul>");
+document.writeln("<li class=\'title\'>メニュー</li>");
+document.writeln("<li><a href=\'index.html\'>ホーム</a></li>");
+document.writeln("<li><a href=\'company.html\'>会社概要</a></li>");
+document.writeln("<li><a href=\'contact.html\'>お問い合わせ</a></li>");
+document.writeln("</ul>");
+document.writeln("<ul>");
+document.writeln("<li class=\'title\'>事業内容</li>");
+document.writeln("<li><a href=\'service2.html\'>スリップリング</a></li>");
+document.writeln("<li><a href=\'service7.html\'>RFロータリージョイント</a></li>");
+document.writeln("<li><a href=\'service8.html\'>光ファイバージョイントロータリージョイント（FORJ）</a></li>");
+document.writeln("<li><a href=\'service3.html\'>コンサルティング</a></li>");
+document.writeln("</ul>");
+document.writeln("</div>");
+document.writeln("<!--/#footermenu-->");
+document.writeln("");
+
+document.writeln("<footer>");
+document.writeln("<small>Copyright&copy; <a href=\'index.html\'>IIKA Co.,Ltd</a> All Rights Reserved.</small>");
+document.writeln("</footer>");

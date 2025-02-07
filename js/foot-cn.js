@@ -1,0 +1,21 @@
+document.writeln("<div id=\'footermenu\'>");
+document.writeln("<ul>");
+document.writeln("<li class=\'title\'>MENU</li>");
+document.writeln("<li><a href=\'index-cn.html\'>主页</a></li>");
+document.writeln("<li><a href=\'company-cn.html\'>公司简介</a></li>");
+document.writeln("<li><a href=\'contact-cn.html\'>联络我们</a></li>");
+document.writeln("</ul>");
+document.writeln("<ul>");
+document.writeln("<li class=\'title\'>事业内容</li>");
+document.writeln("<li><a href=\'service2-cn.html\'>滑环</a></li>");
+document.writeln("<li><a href=\'service3-cn.html\'>咨询</a></li>");
+document.writeln("<li><a href=\'service4-cn.html\'>在留资格相关</a></li>");
+document.writeln("<li><a href=\'service5-cn.html\'>留学</a></li>");
+document.writeln("</ul>");
+document.writeln("</div>");
+document.writeln("<!--/#footermenu-->");
+document.writeln("");
+
+document.writeln("<footer>");
+document.writeln("<small>Copyright&copy; <a href=\'index-cn.html\'>IIKA Co.,Ltd</a> All Rights Reserved.</small>");
+document.writeln("</footer>");

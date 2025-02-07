@@ -1,0 +1,22 @@
+document.writeln("<header>");
+document.writeln("<h1 id=\'logo\'><a href=\'index.html\'><img src=\'images/logo.png\' alt=\'株式会社IIKA\'></a></h1>");
+document.writeln("<address><i class=\'fas fa-phone-volume\'></i>052-750-0751</address>");
+document.writeln("</header>");
+document.writeln("");
+document.writeln("<!--メインメニュー-->
+<script type="text/javascript" src="js/menubar.js"></script>");
+document.writeln("<nav id=\'menubar\'>");
+document.writeln("<ul>");
+document.writeln("<li><a href=\'index.html\'>ホーム</a></li>");
+document.writeln("<li><a href=\'\'>サービス</a>");
+document.writeln("	<ul>");
+document.writeln("	<li><a href=\'service1.html\'>半導体関連業務</a></li>");
+document.writeln("	<li><a href=\'service3.html\'>コンサルティング</a></li>");
+document.writeln("	</ul>");
+document.writeln("</li>");
+document.writeln("<li><a href=\'contact.html\'>お問い合わせ</a></li>");
+document.writeln("</ul>");
+document.writeln("</nav>");
+document.writeln("");
+document.writeln("<div id=\'contents\'>");
+document.writeln("");

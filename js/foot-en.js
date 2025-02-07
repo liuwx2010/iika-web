@@ -1,0 +1,21 @@
+document.writeln("<div id=\'footermenu\'>");
+document.writeln("<ul>");
+document.writeln("<li class=\'title\'>MENU</li>");
+document.writeln("<li><a href=\'index-en.html\'>HOME</a></li>");
+document.writeln("<li><a href=\'company-en.html\'>COMPANY PROFILE</a></li>");
+document.writeln("<li><a href=\'contact-en.html\'>CONTACT</a></li>");
+document.writeln("</ul>");
+document.writeln("<ul>");
+document.writeln("<li class=\'title\'>BUSINESS CONTENT</li>");
+document.writeln("<li><a href=\'service2-en.html\'>Slip Rings</a></li>");
+document.writeln("<li><a href=\'service3-en.html\'>CONSULTING</a></li>");
+document.writeln("<li><a href=\'service4-en.html\'>RESIDENCE STATUS</a></li>");
+document.writeln("<li><a href=\'service5-en.html\'>STUDY ABROAD</a></li>");
+document.writeln("</ul>");
+document.writeln("</div>");
+document.writeln("<!--/#footermenu-->");
+document.writeln("");
+
+document.writeln("<footer>");
+document.writeln("<small>Copyright&copy; <a href=\'index-en.html\'>IIKA Co.,Ltd</a> All Rights Reserved.</small>");
+document.writeln("</footer>");
