@@ -1,184 +1,160 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>株式会社IIKA</title>
-<meta name="Keywords" Content="iika,コンサルティング,中国,留学,企業海外進出入,ビジネス支援,教育研修″>
-<meta name="description" content="株式会社iikaは、グローバルコンサルティングファームとして、企業の海外進出、ECサービス、留学仲介、旅行プログラムなど、様々な分野・産業に対して海外進出戦略の策定、市場調査と分析、現地法規制の確認、競合他社の調査、パートナーシップ構築、販路拡大戦略、ローカリゼーション戦略など、あらゆるコンサルティングを提供しています。また、VTuber・3Dアニメーションの作成・運用・保守など、アウトソーシングサービスにも注力しています。">
+<title>IIKA Co., Ltd. | Site Under Maintenance</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/style.css">
+<meta name="robots" content="noindex">
+<meta name="description" content="Our website is currently being updated. We'll be back shortly.">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+	font-family: "Canva Sans", "Microsoft YaHei", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	-webkit-text-size-adjust: none;
+	background: #fff;
+	color: #333;
+	line-height: 2;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.l-header { border-top: 5px solid #4D438E; }
+.l-header__container {
+	margin: 0 auto;
+	padding: 0 46px;
+	max-width: 1200px;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 96px;
+}
+.l-header .logo img { width: auto; height: 54px; vertical-align: middle; }
+.lang .linkList { list-style: none; display: flex; gap: 14px; }
+.lang .linkList a {
+	color: #999;
+	text-decoration: none;
+	font-family: 'Barlow Condensed', sans-serif;
+	letter-spacing: 1px;
+	font-size: 16px;
+	line-height: 2;
+}
+.lang .linkList li.current a { color: #4D438E; font-weight: 700; }
+.lang .linkList a:hover { color: #54adf1; }
+
+#contents {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 60px 20px;
+	background:
+		radial-gradient(circle at 15% 20%, rgba(84, 173, 241, 0.08), transparent 45%),
+		radial-gradient(circle at 85% 80%, rgba(77, 67, 142, 0.08), transparent 45%),
+		#fff;
+}
+.maintenance {
+	max-width: 640px;
+	width: 100%;
+	text-align: center;
+}
+.spinner {
+	width: 64px;
+	height: 64px;
+	margin: 0 auto 32px;
+	border-radius: 50%;
+	border: 5px solid #E0DFE7;
+	border-top-color: #4D438E;
+	border-right-color: #54adf1;
+	animation: spin 1s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.maintenance h1 {
+	font-size: 28px;
+	line-height: 1.6;
+	color: #4D438E;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	margin-bottom: 20px;
+}
+.maintenance .lead {
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 6px;
+}
+.maintenance .sub {
+	font-size: 14px;
+	color: #999;
+}
+.divider {
+	width: 64px;
+	height: 3px;
+	background: linear-gradient(90deg, #4D438E, #54adf1);
+	margin: 32px auto;
+	border-radius: 2px;
+}
+.reload {
+	display: inline-block;
+	margin-top: 28px;
+	padding: 12px 40px;
+	background: #4D438E;
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+	letter-spacing: 0.08em;
+	border-radius: 4px;
+	transition: background 0.25s ease;
+}
+.reload:hover { background: #54adf1; }
+
+.l-footer {
+	background: #f7f7f7;
+	color: #999;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 0.06em;
+	padding: 18px 20px;
+}
+@media (max-width: 640px) {
+	.l-header__container { padding: 0 20px; min-height: 80px; }
+	.l-header .logo img { height: 42px; }
+	.maintenance h1 { font-size: 21px; }
+	.maintenance .lead { font-size: 14px; }
+}
+</style>
 </head>
 
-<body class="home">
+<body>
 
-<div id="container">
-
-<header class="l-header" id="l-header">
-	<div class="btmArea">
-		<div class="l-header__container">
-			<h1 class="logo"><a href="index.html"><img class="js-swapOnSp" src="images/new/A2.png" alt="株式会社IIKA" data-src-sp="images/new/A2.png"><span lang="en"></span></a></h1>
-		</div>
-	</div>
-	<div class="topArea">
-		<div class="l-header__container">
-			<div class="lang">
-				<ul class="linkList">
-					<li><a href="index.html" lang="en">JP</a></li>
-					<li class="current"><a href="index-en.html" lang="en">EN</a></li>
-					<li><a href="index-cn.html">CN</a></li>
-				</ul>
-			</div>
+<header class="l-header">
+	<div class="l-header__container">
+		<h1 class="logo"><a href="/"><img src="images/new/A2.png" alt="IIKA Co., Ltd."></a></h1>
+		<div class="lang">
+			<ul class="linkList">
+				<li><a href="/" lang="jp">JP</a></li>
+				<li class="current"><a href="/index-en" lang="en">EN</a></li>
+				<li><a href="/index-cn">CN</a></li>
+			</ul>
 		</div>
 	</div>
 </header>
 
-<!--メインメニュー-->
-<div id='menubar'>
-	<nav id='menubar2'>
-		<ul>
-			<li><a href='index-en.html'>HOME</a></li>
-			<li><a href=''>BUSINESS CONTENT</a>
-				<ul>
-					<li><a href='service3-en.html'>Slip ring manufacturing,OEM,retail,wholesale</a></li>
-					<li><a href='service4-en.html'>Global Education and Training</a></li>
-					<li><a href='service5-en.html'>Residence Status</a></li>
-					<li><a href='service6-en.html'>Study Abroad</a></li>
-				</ul>
-			</li>
-			<li><a href='company-en.html'>COMPANY</a></li>
-			<!--<li><a href='faq-en.html'>FAQ</a></li>-->
-			<li><a href='contact-en.html'>CONTACT</a></li>
-		</ul>
-	</nav>
-	<div class='menubar_lang'>
-		<ul class='menubar_linkList'>
-			<li><a href="index.html" lang="en">JP</a></li>
-			<li class="menubar_current"><a href="index-en.html" lang="en">EN</a></li>
-			<li><a href="index-cn.html">CN</a></li>
-		</ul>
+<div id="contents">
+	<div class="maintenance">
+		<div class="spinner"></div>
+		<h1>Website is currently being updated</h1>
+		<p class="lead">We are temporarily updating our website to improve our services.</p>
+		<p class="sub">We'll be back shortly. Thank you for your patience.</p>
+		<div class="divider"></div>
+		<p class="sub">We apologize for any inconvenience this may cause.</p>
+		<a class="reload" href="/">Reload</a>
 	</div>
 </div>
 
-<div id='contents'>
-
-<!--スライドショー（slick）-->
-<!--
-<div class="mainimg">
-<div><img src="images/LINHUO3.jpg"></div>
-<div><img src="images/zhutu.jpg"></div>
-<div><img src="images/zhutu2.jpg"></div>
-</div>
--->
-<main>
-
-<table class="ta1">
-<tr>
-<td>
-<section>
-<div>
-<img src="images/english/home/1.jpg">
-<img src="images/english/home/2.jpg">
-<br>
-<br>
-<br>
-<br>
-<img src="images/english/home/5.jpg">
-<br>
-<br>
-<br>
-<br>
-<img src="images/english/home/4.jpg">
-<br>
-<br>
-<br>
-<br>
-</div>
-</section>
-</td>
-</tr>
-</table>
-
-<div class="list-container">
-<div class="list4">
-	<div align="center">
-	<figure><a href="service2-en.html"><img src="images/new/3.jpg"></a></figure>
-	<a href="service2-en.html"><h4>Slip Rings</h4></a>
-	<!--<p>プリント基板製造・部品実装</p>-->
-	</div>
-</div>
-<div class="list4">
-	<div align="center">
-	<figure><a href="service3-en.html"><img src="images/new/1.jpg"></a></figure>
-	<a href="service3-en.html"><h4>Consulting</h4></a>
-	<!--<p>プリント基板製造・部品実装</p>-->
-	</div>
-</div>
-<div class="list4">
-	<div align="center">
-	<figure><a href="service4-en.html"><img src="images/new/4.jpg" alt="" ></a></figure>
-	<a href="service4-en.html"><h4>RESIDENCE STATUS</h4></a>
-	<!--<p>半導体・電子部品の卸販売・輸出入</p>-->
-	</div>
-</div>
-
-<div class="list4">
-	<div align="center">
-	<figure><a href="service5-en.html"><img src="images/new/2.jpg" ></a></figure>
-	<a href="service5-en.html"><h4>Study Abroad</h4></a>
-	<!--<p>半導体・電子部品の卸販売・輸出入</p>-->
-	</div>
-</div>
-
-
-
-
-
-</div>
-<!--/.list-container-->
-<section>
-
-<h2>notice</h2>
-
-<dl id="new">
-<!--/<dt>2022/07/09<span>その他</span></dt>
-<dd>サンプルテキスト。</dd>
-<dt>20XX/00/00<span class="icon-bg1">サービス</span></dt>
-<dd>サンプルテキスト。</dd>
--->
-<dt>2023/10/11<span>Others</span></dt>
-<dd>The branch office in Minato Ward has been established.</dd>
-<dt>2022/08/02<span>Others</span></dt>
-<dd>Our web site is updated.</dd>
-
-</dl>
-
-</section>
-
-</main>
-
-</div>
-<!--/#contents-->
-
-<script type="text/javascript" src="js/foot-en.js"></script>
-
-</div>
-<!--/#container-->
-
-<!--jQueryの読み込み-->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<!--スライドショー（slick）-->
-<!--<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
-<script type="text/javascript" src="js/slick.min.js"></script>
-<script type="text/javascript" src="js/slick.js"></script>
-<!--biz56用のスクリプト-->
-<script src="js/main.js"></script>
-
-<!--ハンバーガーボタン（開閉操作のボタン）-->
-<div id="menubar_hdr"></div>
-
-<!--ページの上部へ戻るボタン-->
-<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+<footer class="l-footer">
+	&copy; IIKA Co., Ltd. All Rights Reserved.
+</footer>
 
 </body>
 </html>
